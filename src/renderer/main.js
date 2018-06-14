@@ -3,7 +3,7 @@ import App from './App';
 import router from './router';
 import store from './store';
 import {postFetch} from 'common/js/fetch';
-// import {downFile} from 'common/js/down';
+import {downFile} from 'common/js/down';
 import {ipcSend,ipcOn} from 'common/js/ipcSend';
 import {weiJieMi,weiJiaMi} from 'common/js/crypto';
 // import {encrypt,decrypt} from 'common/js/confusemp3';
