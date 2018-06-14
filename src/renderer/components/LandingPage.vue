@@ -9,15 +9,6 @@
   var music = new PouchDB('music');
   var insertionDB = new PouchDB('inser');
   import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
-  import {machineIdSync} from 'node-machine-id';
   export default {
     name: 'landing-page',
     methods: {
