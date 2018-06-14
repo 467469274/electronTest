@@ -10,19 +10,7 @@
     name: 'my-project',
 
       created(){
-          alert(2)
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
+          alert(3)
       }
   }
 </script>
