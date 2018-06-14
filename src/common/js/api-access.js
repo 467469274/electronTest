@@ -1,3 +1,4 @@
+/*
 var crypto = require('crypto');
 var querystring = require('querystring');
 var isLoginOut = false;
@@ -332,4 +333,4 @@ function parseDom(arg) {
 
     return objE.childNodes;
 
-}
+}*/

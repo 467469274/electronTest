@@ -10,7 +10,6 @@
     name: 'my-project',
 
       created(){
-          alert(3)
       }
   }
 </script>
