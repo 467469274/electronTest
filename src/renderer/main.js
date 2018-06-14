@@ -8,7 +8,7 @@ import {ipcSend,ipcOn} from 'common/js/ipcSend';
 import {weiJieMi,weiJiaMi} from 'common/js/crypto';
 import {encrypt,decrypt} from 'common/js/confusemp3';
 // import {callApi} from 'common/js/api-access';
-import {setCookie,getCookie,clearAllCookie} from '../common/js/cokie';
+// import {setCookie,getCookie,clearAllCookie} from '../common/js/cokie';
 import {getUserInfo} from '../common/js/getUserInfo';
 import {osType} from '../common/js/getOs.js';
 import QRCode from 'qrcode'
