@@ -1,40 +1,11 @@
 <template>
-  <div id="wrapper">
-
-  </div>
 </template>
 
 <script>
-  var PouchDB = require('pouchdb-browser');
-  var music = new PouchDB('music');
-  var insertionDB = new PouchDB('inser');
-  import {machineIdSync} from 'node-machine-id';
   export default {
     name: 'landing-page',
     methods: {
     },
-      created(){
-          music.destroy().then(function (response) {
-              console.log('成功清除全部缓存')
-          }).catch(function (err) {
-          });
-          insertionDB.destroy().then(function (response) {
-              console.log('成功清除全部缓存')
-          }).catch(function (err) {
-          });
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-          console.log(machineIdSync({original: true}))
-      }
   }
 </script>
 
