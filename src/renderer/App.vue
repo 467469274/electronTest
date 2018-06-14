@@ -8,7 +8,6 @@
 
     var PouchDB = require('pouchdb-browser');
     var music = new PouchDB('music');
-    var insertionDB = new PouchDB('inser');
   export default {
     name: 'my-project',
 
