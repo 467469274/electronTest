@@ -6,7 +6,7 @@ import {postFetch} from 'common/js/fetch';
 import {downFile} from 'common/js/down';
 import {ipcSend,ipcOn} from 'common/js/ipcSend';
 import {weiJieMi,weiJiaMi} from 'common/js/crypto';
-import {encrypt,decrypt} from 'common/js/confusemp3';
+// import {encrypt,decrypt} from 'common/js/confusemp3';
 // import {callApi} from 'common/js/api-access';
 // import {setCookie,getCookie,clearAllCookie} from '../common/js/cokie';
 import {getUserInfo} from '../common/js/getUserInfo';
@@ -37,8 +37,3 @@ new Vue({
     store,
     template: '<App/>'
 }).$mount('#app');
-Vue.config.errorHandler = function (err, vm, info) {
-    console.log(err)
-    console.log(vm)
-    console.log(info)
-}
