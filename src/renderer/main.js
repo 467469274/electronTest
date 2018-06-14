@@ -5,7 +5,7 @@ import store from './store';
 import {postFetch} from 'common/js/fetch';
 // import {downFile} from 'common/js/down';
 import {ipcSend,ipcOn} from 'common/js/ipcSend';
-// import {weiJieMi,weiJiaMi} from 'common/js/crypto';
+import {weiJieMi,weiJiaMi} from 'common/js/crypto';
 // import {encrypt,decrypt} from 'common/js/confusemp3';
 // import {callApi} from 'common/js/api-access';
 // import {setCookie,getCookie,clearAllCookie} from '../common/js/cokie';
