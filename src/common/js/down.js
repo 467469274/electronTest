@@ -19,6 +19,7 @@ var FileLocal = (os.type() == 'Windows_NT') ? process.cwd() : '/tmp';
 // var insertionDB = new PouchDB('inser')
 
 export function downFile(type, uri, filename, id, callback) {
+
     request({url: uri, encoding: null}, function (error, response, buffer) {
         if(error){
             callback();
@@ -35,7 +36,6 @@ export function downFile(type, uri, filename, id, callback) {
             if (err == 'Error: ENOSPC: no space left on device, write') {
                 callback(err)
             } else {
-
             }
         })
     })
