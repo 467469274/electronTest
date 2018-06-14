@@ -13,12 +13,6 @@
   export default {
     name: 'my-project',
       created(){
-          music.destroy().then(function (response) {
-              console.log(music)
-              console.log('成功清除全部缓存')
-          }).catch(function (err) {
-              console.log(err)
-          });
       }
   }
 </script>
