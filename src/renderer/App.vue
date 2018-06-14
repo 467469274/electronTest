@@ -7,7 +7,6 @@
 <script>
 
     var PouchDB = require('pouchdb-browser');
-    var music = new PouchDB('music');
   export default {
     name: 'my-project',
 
